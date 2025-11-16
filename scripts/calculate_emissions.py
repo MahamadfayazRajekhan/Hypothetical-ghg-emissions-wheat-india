@@ -13,5 +13,5 @@ df["Total_N2O_N"] = df["N2O_N_direct"] + df["N2O_N_indirect"]
 df["N2O_gas_kg_per_ha"] = df["Total_N2O_N"] * N2O_conversion
 df["CO2e_kg_per_ha"] = df["N2O_gas_kg_per_ha"] * GWP_N2O
 
-df.to_csv("data/wheat_farmers_4000_with_emissions.csv", index=False)
+df.to_csv("wheat_farmers_4000_with_emissions.csv", index=False)
 print("Emission dataset saved.")

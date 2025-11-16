@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("data/wheat_farmers_4000.csv")
+df = pd.read_csv("wheat_farmers_4000.csv")
 
 EF_direct = 0.01
 EF_indirect = 0.004
